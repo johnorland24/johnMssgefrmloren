@@ -1,0 +1,46 @@
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .envelope {
+    background-color: #fff;
+    width: 80%;
+    max-width: 300px;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .envelope-cover {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .heart-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .envelope-card {
+    text-align: center;
+  }
+  
+  button {
+    background-color: #ff5757;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
